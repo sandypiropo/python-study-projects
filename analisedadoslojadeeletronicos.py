@@ -46,21 +46,6 @@ tabela_lojas = tabela_total.groupby("Loja").sum()
 tabela_lojas = tabela_lojas[['Quantidade Vendida']].sort_values(by="Quantidade Vendida", ascending=False)
 display(tabela_lojas)
 
-# Sorteador de nomes
-
-# 1 Apresentar o jogo 
-print('Este é um jogo de escolhas... ',end='')
-print ('Você diz três coisas / pessoas e eu escolho por você')
-
-# 2 Perguntar se o jogador escolhe cara ou coroa
-import random
-nome1 = str(input('Primeira palavra?'))
-nome2 = str(input('Segunda palavra?'))
-nome3 = str(input('Terceira palavra?'))
-lista = [nome1,nome2,nome3]
-sorteio = random.choice(lista)
-print('A palavra sorteada foi:', sorteio)
-
 import plotly.express as px
 
 grafico = px.bar(tabela_lojas, x=tabela_lojas.index, y='Quantidade Vendida')
