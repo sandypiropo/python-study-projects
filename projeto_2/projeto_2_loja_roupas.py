@@ -45,7 +45,10 @@ ax.set_ylabel("Valor Total (R$)")
 plt.show()
 
 
-"""Os modelos de Bermuda que mais se destacam são o Bermuda Liso, que foi vendido em maior quantidade no Iguatemi Campinas, e o Bermuda Listrado, que teve um bom desempenho no Bourbon Shopping SP e no Norte Shopping. Já o modelo que teve o menor desempenho foi o Bermuda, que foi vendido em menor quantidade no Norte Shopping e no Iguatemi Campinas.
+"""Os modelos de Bermuda que mais se destacam são o Bermuda Liso, que foi vendido em maior quantidade 
+no Iguatemi Campinas, e o Bermuda Listrado, que teve um bom desempenho no Bourbon Shopping SP e no Norte Shopping. 
+Já o modelo que teve o menor desempenho foi o Bermuda, que foi vendido em menor quantidade no Norte Shopping e no Iguatemi Campinas.
 
-Também foi possível observar que alguns shoppings têm uma preferência por determinados modelos de Bermuda, como é o caso do Center Shopping Uberlândia, que teve um bom desempenho nas vendas de Bermudas de linho e estampadas.
+Também foi possível observar que alguns shoppings têm uma preferência por determinados modelos de Bermuda, como é o caso do 
+Center Shopping Uberlândia, que teve um bom desempenho nas vendas de Bermudas de linho e estampadas.
 """
